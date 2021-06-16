@@ -108,6 +108,11 @@ h1 {
   margin: calc(50vh - 9rem) auto;
 }
 
+/*@media screen and (max-width: 992px) {
+  #header {
+    font-size: 15px;
+  }
+}*/
 
 body {
     min-height: 100vh;
@@ -228,4 +233,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   top: 0;
   background: #fff;
   border: 2px solid #16A95A;
+}
+
+@media screen and (max-width: 640px) {
+  #animated {
+    font-size: 75px;
+  }
 }
